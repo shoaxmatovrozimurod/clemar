@@ -19,6 +19,7 @@
     right: 0;
     top: 0;
     z-index: 111;
+    background-color: aliceblue;
     box-shadow: 10px 8px 9px rgb(238, 235, 235);
 }
 .header-container{
@@ -56,13 +57,13 @@
 }
 .header-wrapper-sn{
     font-family: "Roboto";
-font-weight: 400;
-font-style: Regular;
-font-size: 15px;
-line-height: 19.5px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: uppercase;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 19.5px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
     color: #222;
 }
 .qidiruv-icn{
@@ -81,18 +82,18 @@ text-transform: uppercase;
 }
 .header-wrapper-link{
     font-family: "Roboto";
-font-weight: 500;
-font-style: Medium;
-font-size: 16px;
-line-height: 20.8px;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: uppercase;
-   color: #e5e5e5;
-   background-color: rgb(42, 102, 213);
-   padding: 12px 26px;
-   border-radius: 9px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #e5e5e5;
+    background-color: rgb(42, 102, 213);
+    padding: 12px 26px;
+    border-radius: 9px;
 }
 .header-wrapper-link:hover{
     cursor: pointer;
@@ -100,7 +101,7 @@ text-transform: uppercase;
     color: white;
 }
 .bars{
-display: none;
+    display: none;
 }
 .bar{
     width: 30px;
@@ -126,4 +127,62 @@ display: none;
         background-color: #131117;
         border-radius: 2px;
     }
+}
+/* --------------------hero----------- */
+.hero{
+    background-image: url("../images/heroimg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 900px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    margin-top: 90px;
+}
+.hero-container{
+    width: 300px;
+    text-align: left;
+    margin-right: 1000px;
+}
+.hero-title{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #ffffffff;
+    margin-bottom: 14px;
+}
+.hero-text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: middle;
+    color: #FFFFFFFF;
+    margin-bottom: 49px;
+}
+.hero-btn{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26.4px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    padding: 10px 27px;
+    color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 9px  ;
+    background: rgb(236, 246, 249);
+    margin-bottom: 20px;
+}
+.hero-btn:hover{
+    background-color: #019EDC;
+    color: #fbfefe;   
 }
