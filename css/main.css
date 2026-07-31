@@ -186,3 +186,8 @@
     background-color: #019EDC;
     color: #fbfefe;   
 }
+.categoriy-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
