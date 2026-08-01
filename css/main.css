@@ -346,12 +346,95 @@
 }
 /* -------------------------catalog----------- */
 .catalog{
-    margin-top: 80px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.catalog-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 700px;
 }
 .catalog-list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 20px;
-
+    justify-content: space-between;
+}
+.catalog-box-title{
+    font-size: 30px;
+    color: #222222;
+    line-height: 60px;
+}
+.catalog-box-link{
+    transition: background-size 0.3s ease-in-out, color 0.3s ease, transform 0.2s ease;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #017ba6;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f6f7;
+}
+.catalog-box-link:hover{
+    background-color: #e9eff1;
+     transform: translateY(-2px);
+}
+.catalog-item{
+    width: 400px;
+    height: 480px;
+    background-color: #f3f7f9;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.2s ease;
+    box-shadow: 5px 8px 9px rgb(228, 228, 230);
+}
+.catalog-item:hover{
+    transform: translateY(-6px);
+    background-color: #f2f2f3;
+}
+.catalog-item-sn{
+    font-family: sans-serif;
+    font-weight: 570;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 25px;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;    
+    padding: 10px;
+}
+.catalog-item-title{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 19.8px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+.catalog-item-btn{
+    margin-top: 10px;
+    margin-left: 33px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ebf7fb;
+}
+.catalog-item-btn:hover{
+    background-color: #66d0fa;
+    color: white;
 }
