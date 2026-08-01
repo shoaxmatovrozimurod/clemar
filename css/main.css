@@ -344,3 +344,14 @@
     background-color: #66d0fa;
     color: white;
 }
+/* -------------------------catalog----------- */
+.catalog{
+    margin-top: 80px;
+}
+.catalog-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
