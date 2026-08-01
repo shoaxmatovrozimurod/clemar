@@ -438,3 +438,58 @@
     background-color: #66d0fa;
     color: white;
 }
+/* ---------------features */
+.features{
+    margin-top: 70px;
+}
+.features-title{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 40px;
+}
+.features-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    height: 200px;
+    border: none;
+    border-radius: 12px;
+    background-color: #222222;
+}
+.features-item-img{
+    transition: transform 0.3s ease;
+}
+.features-item-img:hover{
+    transform: translateY(-3px);
+}
+.features-item-title{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFFFF;
+
+}
+.features-item-text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #e0e0e0;
+}
