@@ -45,10 +45,12 @@
     border-radius: 8px;
     border: none;
     background-color: rgb(239, 241, 244);
+    transition: background-size 0.3s ease-in-out, color 0.3s ease, transform 0.2s ease;
 }
 .catolog-btn:hover{
     cursor: pointer;
     background-color: rgb(223, 236, 247);
+    transform: translateY(-2px);
 }
 .header-wrapper{
     display: flex;
@@ -181,13 +183,164 @@
     border-radius: 9px  ;
     background: rgb(236, 246, 249);
     margin-bottom: 20px;
+    transition: background-size 0.3s ease-in-out, color 0.3s ease, transform 0.2s ease;
 }
 .hero-btn:hover{
     background-color: #019EDC;
     color: #fbfefe;   
+    transform: translateY(-2px);
 }
+/* -------------------------------categoriy */
+.categoriy{
+    margin-top: 60px;
+}
+
 .categoriy-list{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.categoriy-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 430px;
+    margin-bottom: 50px;
+}
+.categoriy-box-title{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #222222;
+}
+.categoriy-box-link{
+    transition: background-size 0.3s ease-in-out, color 0.3s ease, transform 0.2s ease;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #017ba6;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f6f7;
+}
+.categoriy-box-link:hover{
+    background-color: #e9eff1;
+     transform: translateY(-2px);
+}
+.categoriy-item-img{
+    width: 220px;
+    height: 222px;
+    margin-bottom: 23px;
+    transition: transform 0.2s ease;
+}
+.categoriy-item-img:hover{
+    transform: translateY(-5px);
+}
+.categoriy-item-title{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 17px;
+    line-height: 25.5px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #222222;
+}
+/* ------------------products-------------- */
+.products{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.products-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 700px;
+}
+.products-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.products-box-title{
+    font-size: 30px;
+    color: #222222;
+    line-height: 60px;
+}
+.products-box-link{
+    transition: background-size 0.3s ease-in-out, color 0.3s ease, transform 0.2s ease;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #017ba6;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f6f7;
+}
+.products-box-link:hover{
+    background-color: #e9eff1;
+     transform: translateY(-2px);
+}
+.products-item{
+    width: 300px;
+    height: 400px;
+    background-color: #f3f7f9;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.2s ease;
+    box-shadow: 5px 8px 9px rgb(228, 228, 230);
+}
+.products-item:hover{
+    transform: translateY(-6px);
+}
+.products-item-sn{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 17px;
+    line-height: 25.5px;
+    color: #222;
+    margin-left: 33px;
+}
+.products-item-title{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 19.8px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #333333;
+    margin-left: 33px;
+}
+.products-item-btn{
+    margin-top: 10px;
+    margin-left: 33px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ebf7fb;
+}
+.products-item-btn:hover{
+    background-color: #66d0fa;
+    color: white;
 }
