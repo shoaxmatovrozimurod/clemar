@@ -493,3 +493,25 @@
     vertical-align: middle;
     color: #e0e0e0;
 }
+/* --------------brend------------- */
+.brend{
+    margin-top: 50px;
+}
+.brend-title{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #222222;
+    margin-bottom: 33px;
+    text-align: left;
+}
+.brend-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
